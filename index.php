@@ -18,7 +18,7 @@
 		<td><input type="text" name="dp_dollars" size="6" value="<?php echo (isset($_POST['dp_dollars']) ? $_POST['dp_dollars'] : NULL); ?>" /> . <input type="text" name="dp_cents" size="2" maxlength="2" value="<?php echo (isset($_POST['dp_cents']) ? $_POST['dp_cents'] : NULL); ?>" /></td>
 	</tr>
 	<tr>
-	<td>Term (m):</td>
+		<td><label>Term (m):</label></td>
 		<td><input type="text" name="term" value="<?php echo (isset($_POST['term']) ? $_POST['term'] : NULL); ?>"  size="3" /></td>
 	</tr>
 	<tr>
